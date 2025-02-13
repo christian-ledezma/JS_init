@@ -12,9 +12,11 @@ form.addEventListener("submit", (event) => {
   const firstNumber = Number.parseInt(first.value);
   const secondNumber = Number.parseInt(second.value);
 
-  if (event.submitter.id === "sumar-button") {
+  if (event.submitter.id === "sumar-button") 
+  {
     div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
-  } else if (event.submitter.id === "multiplicar-button") {
+  } else if (event.submitter.id === "multiplicar-button")
+  {
     div.innerHTML = "<p>" + multiplicar(firstNumber, secondNumber) + "</p>";
   }
 });
